@@ -13,7 +13,7 @@ This package is supported for Windows. The package has been tested on Windows 10
 ### Demo and Instructions for use
 **Encoding:** To encode a digital image into DNA sequences, change the working directory to `~/Encoding/` and run `encoding.py`. It takes about several seconds to generate the DNA sequences (`DNA.csv`) and related matrix files from the provided demo image (`picture.png`).
 
-**Decoding:** To convert sequencing information back into an image, a decoding demo dataset is available in figshare ([这里填入你的figshare链接]). Download the sequencing file and place it in the `~/Decoding/` folder. Change the working directory to `~/Decoding/` and sequentially run `recovery.py`, `picture_recovery.py`, and `to_picture.py`. It may take about 15 seconds to get the reconstructed image.
+**Decoding:** To convert sequencing information back into an image, a decoding demo dataset is available in figshare ([这里填入你的figshare链接]). Download the sequencing file and place it in the `~/Decoding/` folder. Change the working directory to `~/Decoding/` and sequentially run `recovery.py`, `picture_recovery.py`, and `to_picture.py`. It may take about 20 minutes to get the reconstructed image.
 
 To run the software on your own data, simply replace the `picture.png` in the Encoding folder or the `low_freq_5_percent.txt` in the Decoding folder with your own files.
 
