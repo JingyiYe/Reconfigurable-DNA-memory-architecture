@@ -11,9 +11,9 @@ It provides a complete computational pipeline for encoding digital information (
 This package is supported for Windows. The package has been tested on Windows 10/11. The codes were implemented in Python (version 3.8 or higher). To run the scripts, you need to install the `numpy` and `Pillow` packages (e.g., via `pip install numpy Pillow`). Typical install time is less than 2 minutes on a normal desktop computer.
 
 ### Demo and Instructions for use
-**Encoding:** To encode a digital image into DNA sequences, change the working directory to `~/Encoding/` and run `encoding.py`. It takes about several seconds to generate the DNA sequences (`DNA.csv`) and related matrix files from the provided demo image (`picture.png`).
+**Encoding:** To encode a digital image into DNA sequences, change the working directory to `~/Encoding/` and run `encoding.py`. It takes about several minutes to generate the DNA sequences (`DNA.csv`) and related matrix files from the provided demo image (`picture.png`).
 
-**Decoding:** To convert sequencing information back into an image, a decoding demo dataset is available in figshare ([这里填入你的figshare链接]). Download the sequencing file and place it in the `~/Decoding/` folder. Change the working directory to `~/Decoding/` and sequentially run `recovery.py`, `picture_recovery.py`, and `to_picture.py`. It may take about 20 minutes to get the reconstructed image.
+**Decoding:** To convert sequencing information back into an image, a decoding demo dataset is available in figshare (https://doi.org/10.6084/m9.figshare.31384315). Download the sequencing file and place it in the `~/Decoding/` folder. Change the working directory to `~/Decoding/` and sequentially run `recovery.py`, `picture_recovery.py`, and `to_picture.py`. It may take about 10 minutes to get the reconstructed image.
 
 To run the software on your own data, simply replace the `picture.png` in the Encoding folder or the `low_freq_5_percent.txt` in the Decoding folder with your own files.
 
